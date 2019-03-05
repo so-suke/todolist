@@ -10,8 +10,8 @@
 export default {
   props: ["value", "addTodo"],
   methods: {
-    updateText(e) {
-      this.$emit("input", e.target.value);
+    updateText(event) {
+      this.$emit("input", event.target.value);
     }
   }
 };
