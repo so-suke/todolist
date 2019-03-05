@@ -2,6 +2,7 @@
 node_modules
 .jsbeautifyrc
 /dist
+/memo
 
 # local env files
 .env.local
